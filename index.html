@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="name">Co dziś planujesz?</h1>
+    
+   <section id="Main">
+    <select id="wybor">
+     <option value="gra">Chcę Zagrać w Grę</option>
+     <option value="film">Chcę coś Obejrzeć</option>
+     <option value="ksiazka">Chcę poczytać ksiąźkę</option>
+     </select> <br>
+          <button onclick="help()"   id="help">Podpowiedz mi!</button>
+    </section>
+  
+    <div id="rest">
+    <h2 id="result"></h2>
+    <p id="counter">Liczba losowań: 0</p>
+    <button id="resetBtn">Resetuj</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
